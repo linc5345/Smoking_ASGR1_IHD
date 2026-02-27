@@ -48,4 +48,5 @@ Run: MVMR.R
 ## Stage 4: Example calculation of proportion mediated
 Requirements:
   1. File containing beta and se for exposure -> mediator, mediator -> outcome, and exposure -> outcome associations
+
 Run: Mediation_calc.R
