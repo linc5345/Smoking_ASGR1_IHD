@@ -7,23 +7,26 @@ This repository contains code to perform the primary MR analyses and ABF colocal
 Requirements: 
   1. GSCAN and/or UKB summary statistics for Smoking intitiation, cigarettes per day, and the lifetime smoking index
   2. Summary statistics for circulating plasma protein levels (UKB-PPP used in our analyses).
-  3. Perform MR function (https://github.com/adamkvonende/mr_pipeline)
+  3. A file containing gene coordinate information for proteins (to define cis regions for exclusion)
+  4. Perform MR function (https://github.com/adamkvonende/mr_pipeline)
 
 Run: Smok_to_prot.R
 
 ## Stage 1: Reverse _cis_-MR of protein levels to smoking variables
 Requirements:
   1. Summary statistics for circulating plasma protein levels (UKB-PPP used in our analyses)
-  2. GSCAN and/or UKB summary statistics for Smoking intitiation, cigarettes per day, and the lifetime smoking index
-  3. Perform MR function (https://github.com/adamkvonende/mr_pipeline)
+  2. A file containing gene coordinate information for proteins (to define cis regions for inclusion)
+  3. GSCAN and/or UKB summary statistics for Smoking intitiation, cigarettes per day, and the lifetime smoking index
+  4. Perform MR function (https://github.com/adamkvonende/mr_pipeline)
 
 Run: Prot_to_smok.R
 
 ## Stage 2: _cis_-MR of protein levels to disease risk
 Requirements:
   1. Summary statistics for circulating plasma protein levels (UKB-PPP used in our analyses)
-  2. Disease outcome summary statistics (see manuscript for details)
-  3. Perform MR function (https://github.com/adamkvonende/mr_pipeline)
+  2. A file containing gene coordinate information for proteins (to define cis regions for inclusion)
+  3. Disease outcome summary statistics (see manuscript for details)
+  4. Perform MR function (https://github.com/adamkvonende/mr_pipeline)
 
 Run: Prot_to_disease.R
 
