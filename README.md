@@ -8,7 +8,7 @@ Requirements:
   1. GSCAN and/or UKB summary statistics for Smoking intitiation, cigarettes per day, and the lifetime smoking index
   2. Summary statistics for circulating plasma protein levels (UKB-PPP used in our analyses).
   3. A file containing gene coordinate information for proteins (to define cis regions for exclusion)
-  4. Perform MR function (https://github.com/adamkvonende/mr_pipeline)
+  4. Perform MR function
 
 Run: Smok_to_prot.R
 
@@ -17,7 +17,7 @@ Requirements:
   1. Summary statistics for circulating plasma protein levels (UKB-PPP used in our analyses)
   2. A file containing gene coordinate information for proteins (to define cis regions for inclusion)
   3. GSCAN and/or UKB summary statistics for Smoking intitiation, cigarettes per day, and the lifetime smoking index
-  4. Perform MR function (https://github.com/adamkvonende/mr_pipeline)
+  4. Perform MR function
 
 Run: Prot_to_smok.R
 
@@ -26,7 +26,7 @@ Requirements:
   1. Summary statistics for circulating plasma protein levels (UKB-PPP used in our analyses)
   2. A file containing gene coordinate information for proteins (to define cis regions for inclusion)
   3. Disease outcome summary statistics (see manuscript for details)
-  4. Perform MR function (https://github.com/adamkvonende/mr_pipeline)
+  4. Perform MR function
 
 Run: Prot_to_disease.R
 
